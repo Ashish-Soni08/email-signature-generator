@@ -1,30 +1,68 @@
-# Email signature generator
+# Email Signature Generator
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A minimal, professional email signature generator with live preview and one-click copy functionality.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ashish-sonis-projects-a3ae1934/v0-email-signature-generator)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/tc7t7Qoiz8e)
+**Live Demo:** [https://v0-email-signature-generator-seven.vercel.app/](https://v0-email-signature-generator-seven.vercel.app/)
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Features
 
-## Deployment
+- **Live Preview** — See your signature update in real-time as you type
+- **Light/Dark Mode** — Preview how your signature looks in both modes
+- **Multiple Logo Options**
+  - Choose from preset logos (Vercel)
+  - Upload your own image (with validation)
+  - Create a custom text-based logo with colors and shapes
+- **One-Click Copy** — Copy signature as HTML with inline styles for maximum email client compatibility
+- **Import Guide** — Step-by-step instructions for Gmail, macOS Mail, and iOS Mail
+- **Form Validation** — Required field checks, logo dimension/size validation, and helpful error messages
+- **Fully Responsive** — Works great on mobile devices
 
-Your project is live at:
+---
 
-**[https://vercel.com/ashish-sonis-projects-a3ae1934/v0-email-signature-generator](https://vercel.com/ashish-sonis-projects-a3ae1934/v0-email-signature-generator)**
+## Signature Output
 
-## Build your app
+The generated HTML signature includes:
+- Company logo (optional, links to your website)
+- Name in bold
+- Title and company name
+- Phone and Twitter/X handle (separated by bullet if both exist)
 
-Continue building your app on:
+All styles are inline for maximum compatibility across email clients.
 
-**[https://v0.app/chat/tc7t7Qoiz8e](https://v0.app/chat/tc7t7Qoiz8e)**
+---
 
-## How It Works
+## Tech Stack
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Next.js 14 (App Router)
+- React 18
+- Tailwind CSS
+- TypeScript
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone <repo-url>
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
+
+## License
+
+MIT
+
+<p align="center">
+  <img src="/public/built-with-v0.jpg" alt="Built with v0" width="300" />
+</p>
